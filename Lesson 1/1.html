@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Club 1</title>
+    <style>
+        body {
+            background-color: #eeb9b9;
+        }
+
+        header {
+            background-color: rgb(77, 5, 53);
+        }
+
+        nav {
+            background-color: rgb(228, 131, 191);
+        }
+
+        #intro {
+            background-color: lightpink;
+        }
+
+        .main-section-content h2 {
+            background-color: rgb(212, 83, 158);
+        }
+
+        #bestsellers,
+        footer {
+            background-color: rgb(218, 124, 160);
+        }
+
+        header,
+        nav,
+        #intro,
+        #main-section,
+        #bestsellers,
+        footer {
+            border: 1px solid black;
+        }
+
+        header,
+        nav,
+        #main-section {
+            border-radius: 10px;
+        }
+
+        header h1 {
+            color: rgb(12, 11, 11);
+        }
+
+        h2,
+        p {
+            color: #380505;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        tr:last-child {
+            color: red;
+        }
+
+        span {
+            color: rgb(211, 64, 174);
+        }
+
+        footer p:first-child span {
+            color: rgb(133, 10, 92);
+        }
+
+        .teacher-info {
+            border: 1px solid;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: rgba(255, 0, 128, 0.521);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <header>
+            <h1>
+                Bookworm Book Club
+             </h1>
+             <img src="download.jpg" alt="list of books" width="300">
+        </header>  
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://bookclubs.com/" target="_blank">Online
+                        Resources</a></li>
+                <li><a href="#">Reading Groups</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div id="intro">
+            <h2>Welcome to Bookworm b</h2>
+            <p>The Bookworm Book Club is an online community of book readers in India.</p>
+        </div>
+        
+        <div id="main-section">
+            <div class="main-section-content">
+                <h2>Meet our teachers</h2>
+                <div id="teachers">
+                    <div class="teacher-info">
+                        <div>
+                            <img src="t1.jpg" alt="teacher image" width="100">
+                        </div>
+                        <div>
+                            <h3>Ms. Izza</h3>
+                            <p>She teaches primary school kids.</p>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <div>
+                            <img src="t2.jpg" alt="teacher image" width="100">
+                        </div>
+                        <div>
+                            <h3>Ms. Mary</h3>
+                            <p>She teacher secondary school and high school kids.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="book-reviews" class="main-section-content">
+                <h2>Book Review</h2>
+                <h3>Cindrella</h3>
+        
+                <p><strong>Sarah: </strong><q>I really enjoyed reading this book</q></p>
+            </div>
+            <div id="videos" class="main-section-content">
+                <h2>Related Videos</h2>
+                <div>
+                    <video width="400" height="218" controls autoplay>
+                    <source src="./public/video.mp4" type="video/mp4">
+                    </video>
+                    <iframe width="400" height="216" src="https://www.youtube.com/embed/wcWLKRXgjsw"
+                    title="YouTube video player"></iframe>
+                </div>
+            </div>
+            <div class="main-section-content">
+                <h2>Opening Timings</h2>
+                <table>
+                    <tr>
+                        <th>Monday</th>
+                        <td>11am - 3pm</td>
+                    </tr>
+                    <tr>
+                        <th>Tuesday</th>
+                        <td>11am - 3pm</td>
+                    </tr>
+                    <tr>
+                        <th>Wednesday</th>
+                        <td>11am - 3pm</td>
+                    </tr>
+                    <tr>
+                        <th>Thursday</th>
+                        <td>11am - 3pm</td>
+                    </tr>
+                    <tr>
+                        <th>Friday</th>
+                        <td>11am - 1pm</td>
+                    </tr>
+                    <tr>
+                        <th>Saturday</th>
+                        <td>11am - 1pm</td>
+                    </tr>
+                    <tr>
+                        <th>Sunday</th>
+                        <td>Closed</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="bestsellers">
+            <h2>Best Sellers</h2>
+        
+            <b>Verity</b> by <em> Collen Hover</em><br>
+            <b>It ends with us</b> by <em>Collen Hover</em><br>
+        </div>
+        <footer>
+            <p>Contact Us: </p>
+            <p>Phone No: +919999999999</p>
+            <address>Mumbai , India</address>
+        </footer>
+        <button>Enquiry</button>
+    </div>
+</body>
+</body>
+</html>
