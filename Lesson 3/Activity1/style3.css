@@ -1,0 +1,118 @@
+body {
+    background-color: #eeb9b9;
+}
+
+header {
+    background-color: rgb(77, 5, 53);
+}
+
+nav {
+    background-color: rgb(228, 131, 191);
+}
+
+#intro {
+    background-color: lightpink;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center
+}
+
+.main-section-content h2 {
+    background-color: rgb(212, 83, 158);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#bestsellers,
+footer {
+    background-color: rgb(218, 124, 160);
+}
+
+header,
+nav,
+#intro,
+#main-section,
+#bestsellers,
+footer {
+    border: 1px solid black;
+}
+
+header,
+nav,
+#main-section {
+    border-radius: 10px;
+}
+
+header h1 {
+    color: rgb(12, 11, 11);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin: 30px;
+}
+
+h2,
+p {
+    color: #380505;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+tr:last-child {
+    color: red;
+}
+
+span {
+    color: rgb(211, 64, 174);
+}
+
+footer p:first-child span {
+    color: rgb(133, 10, 92);
+}
+
+.teacher-info {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgba(255, 0, 128, 0.521);
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+}
+.teacher-info div:last-child {
+    margin-left: 50px;
+  }
+  
+  .main-section-content {
+    padding: 20px;
+  }
+  
+  
+  table {
+    margin: auto;
+  }
+  
+  th,
+  td {
+    padding: 9px;
+  }
+  
+  footer {
+    padding: 15px;
+  }
+  
+  #bestsellers h2 {
+      padding: 20px;
+  }
+  
+  ol li {
+      margin-bottom: 20px;
+  }
